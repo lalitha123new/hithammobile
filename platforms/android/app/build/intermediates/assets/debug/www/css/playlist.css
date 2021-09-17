@@ -1,0 +1,141 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+}
+.img1 {
+    margin-top:0px;
+    height:30px;
+    width:40px;
+}
+.container1{
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: white;
+
+}
+.image-container1 {
+  display: flex;
+  justify-content: right;
+  padding-top:5px;
+}
+
+.header1{
+	padding-bottom:0px;
+}
+
+.image-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.li_class1{
+padding:0;
+
+}
+
+.span_class1{
+	
+	font-size:15px;
+	font-weight:bold;
+
+}
+
+.pull-right ul li{
+	display:inline-block;
+    vertical-align: top;
+    
+}
+
+.fixed_size{
+	height:370px;
+	overflow-y:auto;
+}
+/*** Default CSS Attributes ***/
+ #custom-wrapper ul {
+    margin: 0;
+    padding: 0;
+ }
+
+ /*** Overwrite CSS Attributes ***/
+ #custom-wrapper ul {
+    margin: 0 !important;
+    padding: 0 !important;
+ }
+
+div#custom-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#custom-wrapper ul li {
+    
+    text-align: center;
+   }
+div#custom-wrapper ul li a {
+
+    text-decoration: none;
+    display: block;
+    
+    font-family: sans-serif;
+    border-bottom: 1px solid lightgrey;
+}
+.container2{
+	padding-top:5px;
+	text-align:center;
+}
+
+.img3{
+	width:50px;
+	height:50px;
+
+}
+/*.column {
+	float:left;
+	width:20%;
+}*/
+.column {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.glyphicon {
+    font-size: 20px;
+     padding-top:15px;
+    padding-right:40px;
+}
+
+[data-md-tooltip] {
+ position: relative;
+}
+[data-md-tooltip]:before {
+   content: attr(data-md-tooltip);
+   position: absolute;
+   bottom: -35px;
+   left: 50%;
+   padding: 8px;
+   transform: translateX(-50%) scale(0);
+   transition: transform 0.3s ease-in-out;
+   transform-origin: top;
+   background: #616161e6;
+   color: white;
+   border-radius: 2px;
+   font-size: 12px;
+   font-family: Roboto,sans-serif;
+   font-weight: 400;
+}
+[data-md-tooltip]:hover:before {
+ transform: translateX(-50%) scale(1);
+}

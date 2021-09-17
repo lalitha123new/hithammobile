@@ -1,0 +1,46 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-android-permissions": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-sqlite-2": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-permission": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.example.Hitham"
+    }
+  }
+}
